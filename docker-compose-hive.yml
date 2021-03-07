@@ -70,7 +70,7 @@ services:
     environment:
       - NAMENODE_HOST=namenode
   mariadb-rdbms:
-    image: mariadb:5.7
+    image: mariadb:10.2
     container_name: mariadb-rdbms
     volumes:
       - ./mariadb_data:/var/lib/mysql

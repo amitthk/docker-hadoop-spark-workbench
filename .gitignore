@@ -1,3 +1,4 @@
 src/
 data/
+mariadb_data/
 example/SparkWriteApplication.jar
